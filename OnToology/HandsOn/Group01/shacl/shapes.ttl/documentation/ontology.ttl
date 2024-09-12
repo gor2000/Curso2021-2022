@@ -1,0 +1,359 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/ns/shacl#class
+<http://www.w3.org/ns/shacl#class> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/shacl#datatype
+<http://www.w3.org/ns/shacl#datatype> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/shacl#maxInclusive
+<http://www.w3.org/ns/shacl#maxInclusive> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/shacl#minInclusive
+<http://www.w3.org/ns/shacl#minInclusive> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/shacl#nodeKind
+<http://www.w3.org/ns/shacl#nodeKind> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/shacl#path
+<http://www.w3.org/ns/shacl#path> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/shacl#pattern
+<http://www.w3.org/ns/shacl#pattern> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/shacl#property
+<http://www.w3.org/ns/shacl#property> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.w3.org/ns/shacl#targetClass
+<http://www.w3.org/ns/shacl#targetClass> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/def/astrea#contains
+<https://w3id.org/def/astrea#contains> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/def/astrea#generatedShapesFrom
+<https://w3id.org/def/astrea#generatedShapesFrom> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/def/astrea#message
+<https://w3id.org/def/astrea#message> rdf:type owl:AnnotationProperty .
+
+
+###  https://w3id.org/def/astrea#statusCode
+<https://w3id.org/def/astrea#statusCode> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.w3.org/ns/shacl#NodeShape
+<http://www.w3.org/ns/shacl#NodeShape> rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/shacl#PropertyShape
+<http://www.w3.org/ns/shacl#PropertyShape> rdf:type owl:Class .
+
+
+###  https://w3id.org/def/astrea#ReportEntry
+<https://w3id.org/def/astrea#ReportEntry> rdf:type owl:Class .
+
+
+###  https://w3id.org/def/astrea#ShapeReport
+<https://w3id.org/def/astrea#ShapeReport> rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://astrea.linkeddata.es/report
+<http://astrea.linkeddata.es/report> rdf:type owl:NamedIndividual ,
+                                              <https://w3id.org/def/astrea#ShapeReport> ;
+                                     <https://w3id.org/def/astrea#contains> <https://astrea.linkeddata.es/shapes#a8712a0101de7bec494bc106f3b728e1> ,
+                                                                            <https://astrea.linkeddata.es/shapes#b1623cb826fec26ccbdcdb687fa301dc> ,
+                                                                            <https://astrea.linkeddata.es/shapes#bfd0c78cc9f33b1cc3375444a36beecc> ,
+                                                                            <https://astrea.linkeddata.es/shapes#deb2a706789f5a57b4d0582a39ff9c07> ,
+                                                                            <https://astrea.linkeddata.es/shapes#e9082658ccfefc9b3445001e41f9e50f> ,
+                                                                            <https://astrea.linkeddata.es/shapes#ebb87dcc2fd562a1d24734983793f47c> ,
+                                                                            <https://astrea.linkeddata.es/shapes#0ee53c3d6b10005eaffe2b8d7c01fdf5> ,
+                                                                            <https://astrea.linkeddata.es/shapes#0551122c143344fd9241baabb10ca0b7> ,
+                                                                            <https://astrea.linkeddata.es/shapes#1c27a2047114599e14efb0fa06c50ac3> ,
+                                                                            <https://astrea.linkeddata.es/shapes#2e99504692093e6011d8b09bffa7eb94> ,
+                                                                            <https://astrea.linkeddata.es/shapes#2ecc4269279b7d6068ffd000631d135e> ,
+                                                                            <https://astrea.linkeddata.es/shapes#22c0546814a91a42bdd373df348c39f5> ,
+                                                                            <https://astrea.linkeddata.es/shapes#25963b0f537e15d54d3f104bcf87c6b3> ,
+                                                                            <https://astrea.linkeddata.es/shapes#26c017b6f08162bb8165b409f29c044a> ,
+                                                                            <https://astrea.linkeddata.es/shapes#48dcf8ee9648c397a38e7f94dec4cf15> ,
+                                                                            <https://astrea.linkeddata.es/shapes#5b0030060ae8fe006504233577dafcaf> ,
+                                                                            <https://astrea.linkeddata.es/shapes#5b8d8535d3f32c08d3ce29df72563aa0> ,
+                                                                            <https://astrea.linkeddata.es/shapes#59f58bd413cd851b29a7ab98a0f376af> ,
+                                                                            <https://astrea.linkeddata.es/shapes#6f709903f59dbfd4e040481bf1d31ea0> ,
+                                                                            <https://astrea.linkeddata.es/shapes#679afed74e1fbdd7a239d41f20951311> ,
+                                                                            <https://astrea.linkeddata.es/shapes#86dd4553d4b4fb583698ec747ebf19f8> ,
+                                                                            <https://astrea.linkeddata.es/shapes#91a2f38810f40ecf5cd0a4919f9fbc5f> ,
+                                                                            <https://astrea.linkeddata.es/shapes#9342cd77a858c4987385448a69b0a4e1> ,
+                                                                            <https://astrea.linkeddata.es/shapes#96c04f2732c59eaca5098bb23254cc66> ;
+                                     <https://w3id.org/def/astrea#generatedShapesFrom> <https://astrea.linkeddata.es/report/0620946147> .
+
+
+###  https://astrea.linkeddata.es/report/0620946147
+<https://astrea.linkeddata.es/report/0620946147> rdf:type owl:NamedIndividual ,
+                                                          <https://w3id.org/def/astrea#ReportEntry> ;
+                                                 <https://w3id.org/def/astrea#message> "Shapes generated with no errors" ;
+                                                 <https://w3id.org/def/astrea#statusCode> "200"^^xsd:int .
+
+
+###  https://astrea.linkeddata.es/shapes#a8712a0101de7bec494bc106f3b728e1
+<https://astrea.linkeddata.es/shapes#a8712a0101de7bec494bc106f3b728e1> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#PropertyShape> ;
+                                                                       <http://www.w3.org/ns/shacl#datatype> xsd:string ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
+                                                                       <http://www.w3.org/ns/shacl#path> <http://www.colegiosapp.org/ontology#hasTypeAddress> ;
+                                                                       <http://www.w3.org/ns/shacl#pattern> ".*" .
+
+
+###  https://astrea.linkeddata.es/shapes#b1623cb826fec26ccbdcdb687fa301dc
+<https://astrea.linkeddata.es/shapes#b1623cb826fec26ccbdcdb687fa301dc> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#PropertyShape> ;
+                                                                       <http://www.w3.org/ns/shacl#datatype> xsd:string ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
+                                                                       <http://www.w3.org/ns/shacl#path> <http://www.colegiosapp.org/ontology#xCoordinate> ;
+                                                                       <http://www.w3.org/ns/shacl#pattern> ".*" .
+
+
+###  https://astrea.linkeddata.es/shapes#bfd0c78cc9f33b1cc3375444a36beecc
+<https://astrea.linkeddata.es/shapes#bfd0c78cc9f33b1cc3375444a36beecc> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#PropertyShape> ;
+                                                                       <http://www.w3.org/ns/shacl#datatype> xsd:string ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
+                                                                       <http://www.w3.org/ns/shacl#path> <http://www.colegiosapp.org/ontology#yCoordinate> ;
+                                                                       <http://www.w3.org/ns/shacl#pattern> ".*" .
+
+
+###  https://astrea.linkeddata.es/shapes#deb2a706789f5a57b4d0582a39ff9c07
+<https://astrea.linkeddata.es/shapes#deb2a706789f5a57b4d0582a39ff9c07> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#NodeShape> ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> ;
+                                                                       <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#0551122c143344fd9241baabb10ca0b7> ,
+                                                                                                             <https://astrea.linkeddata.es/shapes#91a2f38810f40ecf5cd0a4919f9fbc5f> ;
+                                                                       <http://www.w3.org/ns/shacl#targetClass> <http://dbpedia.org/ontology#Municipality> .
+
+
+###  https://astrea.linkeddata.es/shapes#e9082658ccfefc9b3445001e41f9e50f
+<https://astrea.linkeddata.es/shapes#e9082658ccfefc9b3445001e41f9e50f> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#PropertyShape> ;
+                                                                       <http://www.w3.org/ns/shacl#datatype> xsd:string ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
+                                                                       <http://www.w3.org/ns/shacl#path> <http://www.colegiosapp.org/ontology#hasPostalCode> ;
+                                                                       <http://www.w3.org/ns/shacl#pattern> ".*" .
+
+
+###  https://astrea.linkeddata.es/shapes#ebb87dcc2fd562a1d24734983793f47c
+<https://astrea.linkeddata.es/shapes#ebb87dcc2fd562a1d24734983793f47c> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#PropertyShape> ;
+                                                                       <http://www.w3.org/ns/shacl#datatype> xsd:string ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
+                                                                       <http://www.w3.org/ns/shacl#path> <http://www.colegiosapp.org/ontology#hasGender> ;
+                                                                       <http://www.w3.org/ns/shacl#pattern> ".*" .
+
+
+###  https://astrea.linkeddata.es/shapes#0ee53c3d6b10005eaffe2b8d7c01fdf5
+<https://astrea.linkeddata.es/shapes#0ee53c3d6b10005eaffe2b8d7c01fdf5> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#PropertyShape> ;
+                                                                       <http://www.w3.org/ns/shacl#datatype> xsd:string ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
+                                                                       <http://www.w3.org/ns/shacl#path> <http://www.colegiosapp.org/ontology#ownership> ;
+                                                                       <http://www.w3.org/ns/shacl#pattern> ".*" .
+
+
+###  https://astrea.linkeddata.es/shapes#0551122c143344fd9241baabb10ca0b7
+<https://astrea.linkeddata.es/shapes#0551122c143344fd9241baabb10ca0b7> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#PropertyShape> ;
+                                                                       <http://www.w3.org/ns/shacl#datatype> xsd:string ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
+                                                                       <http://www.w3.org/ns/shacl#path> <http://www.colegiosapp.org/ontology#idMunicipality> ;
+                                                                       <http://www.w3.org/ns/shacl#pattern> ".*" .
+
+
+###  https://astrea.linkeddata.es/shapes#1c27a2047114599e14efb0fa06c50ac3
+<https://astrea.linkeddata.es/shapes#1c27a2047114599e14efb0fa06c50ac3> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#NodeShape> ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> ;
+                                                                       <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#b1623cb826fec26ccbdcdb687fa301dc> ,
+                                                                                                             <https://astrea.linkeddata.es/shapes#bfd0c78cc9f33b1cc3375444a36beecc> ,
+                                                                                                             <https://astrea.linkeddata.es/shapes#0ee53c3d6b10005eaffe2b8d7c01fdf5> ,
+                                                                                                             <https://astrea.linkeddata.es/shapes#2ecc4269279b7d6068ffd000631d135e> ,
+                                                                                                             <https://astrea.linkeddata.es/shapes#25963b0f537e15d54d3f104bcf87c6b3> ,
+                                                                                                             <https://astrea.linkeddata.es/shapes#26c017b6f08162bb8165b409f29c044a> ,
+                                                                                                             <https://astrea.linkeddata.es/shapes#5b0030060ae8fe006504233577dafcaf> ,
+                                                                                                             <https://astrea.linkeddata.es/shapes#86dd4553d4b4fb583698ec747ebf19f8> ,
+                                                                                                             <https://astrea.linkeddata.es/shapes#9342cd77a858c4987385448a69b0a4e1> ;
+                                                                       <http://www.w3.org/ns/shacl#targetClass> <http://dbpedia.org/ontology#School> .
+
+
+###  https://astrea.linkeddata.es/shapes#2e99504692093e6011d8b09bffa7eb94
+<https://astrea.linkeddata.es/shapes#2e99504692093e6011d8b09bffa7eb94> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#PropertyShape> ;
+                                                                       <http://www.w3.org/ns/shacl#datatype> xsd:string ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
+                                                                       <http://www.w3.org/ns/shacl#path> <http://www.colegiosapp.org/ontology#hasNumber> ;
+                                                                       <http://www.w3.org/ns/shacl#pattern> ".*" .
+
+
+###  https://astrea.linkeddata.es/shapes#2ecc4269279b7d6068ffd000631d135e
+<https://astrea.linkeddata.es/shapes#2ecc4269279b7d6068ffd000631d135e> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#PropertyShape> ;
+                                                                       <http://www.w3.org/ns/shacl#class> <http://www.colegiosapp.org/ontology#Address> ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> ;
+                                                                       <http://www.w3.org/ns/shacl#path> <http://www.colegiosapp.org/ontology#hasAddress> .
+
+
+###  https://astrea.linkeddata.es/shapes#22c0546814a91a42bdd373df348c39f5
+<https://astrea.linkeddata.es/shapes#22c0546814a91a42bdd373df348c39f5> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#NodeShape> ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> ;
+                                                                       <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#a8712a0101de7bec494bc106f3b728e1> ,
+                                                                                                             <https://astrea.linkeddata.es/shapes#e9082658ccfefc9b3445001e41f9e50f> ,
+                                                                                                             <https://astrea.linkeddata.es/shapes#2e99504692093e6011d8b09bffa7eb94> ,
+                                                                                                             <https://astrea.linkeddata.es/shapes#5b8d8535d3f32c08d3ce29df72563aa0> ;
+                                                                       <http://www.w3.org/ns/shacl#targetClass> <http://www.colegiosapp.org/ontology#Address> .
+
+
+###  https://astrea.linkeddata.es/shapes#25963b0f537e15d54d3f104bcf87c6b3
+<https://astrea.linkeddata.es/shapes#25963b0f537e15d54d3f104bcf87c6b3> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#PropertyShape> ;
+                                                                       <http://www.w3.org/ns/shacl#datatype> xsd:string ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
+                                                                       <http://www.w3.org/ns/shacl#path> <http://www.colegiosapp.org/ontology#idSchool> ;
+                                                                       <http://www.w3.org/ns/shacl#pattern> ".*" .
+
+
+###  https://astrea.linkeddata.es/shapes#26c017b6f08162bb8165b409f29c044a
+<https://astrea.linkeddata.es/shapes#26c017b6f08162bb8165b409f29c044a> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#PropertyShape> ;
+                                                                       <http://www.w3.org/ns/shacl#datatype> xsd:string ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
+                                                                       <http://www.w3.org/ns/shacl#path> <http://www.colegiosapp.org/ontology#hasTypeSchool> ;
+                                                                       <http://www.w3.org/ns/shacl#pattern> ".*" .
+
+
+###  https://astrea.linkeddata.es/shapes#48dcf8ee9648c397a38e7f94dec4cf15
+<https://astrea.linkeddata.es/shapes#48dcf8ee9648c397a38e7f94dec4cf15> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#PropertyShape> ;
+                                                                       <http://www.w3.org/ns/shacl#class> <http://dbpedia.org/ontology#Municipality> ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> ;
+                                                                       <http://www.w3.org/ns/shacl#path> <http://www.colegiosapp.org/ontology#liveIn> .
+
+
+###  https://astrea.linkeddata.es/shapes#5b0030060ae8fe006504233577dafcaf
+<https://astrea.linkeddata.es/shapes#5b0030060ae8fe006504233577dafcaf> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#PropertyShape> ;
+                                                                       <http://www.w3.org/ns/shacl#class> <http://dbpedia.org/ontology#Municipality> ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#BlankNodeOrIRI> ;
+                                                                       <http://www.w3.org/ns/shacl#path> <http://www.colegiosapp.org/ontology#ownMunicipality> .
+
+
+###  https://astrea.linkeddata.es/shapes#5b8d8535d3f32c08d3ce29df72563aa0
+<https://astrea.linkeddata.es/shapes#5b8d8535d3f32c08d3ce29df72563aa0> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#PropertyShape> ;
+                                                                       <http://www.w3.org/ns/shacl#datatype> xsd:string ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
+                                                                       <http://www.w3.org/ns/shacl#path> <http://www.colegiosapp.org/ontology#hasNameAddress> ;
+                                                                       <http://www.w3.org/ns/shacl#pattern> ".*" .
+
+
+###  https://astrea.linkeddata.es/shapes#59f58bd413cd851b29a7ab98a0f376af
+<https://astrea.linkeddata.es/shapes#59f58bd413cd851b29a7ab98a0f376af> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#PropertyShape> ;
+                                                                       <http://www.w3.org/ns/shacl#datatype> xsd:int ;
+                                                                       <http://www.w3.org/ns/shacl#maxInclusive> 2147483647 ;
+                                                                       <http://www.w3.org/ns/shacl#minInclusive> -2147483648 ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
+                                                                       <http://www.w3.org/ns/shacl#path> <http://www.colegiosapp.org/ontology#minAge> ;
+                                                                       <http://www.w3.org/ns/shacl#pattern> "[\\-+]?[0-9]+" .
+
+
+###  https://astrea.linkeddata.es/shapes#6f709903f59dbfd4e040481bf1d31ea0
+<https://astrea.linkeddata.es/shapes#6f709903f59dbfd4e040481bf1d31ea0> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#PropertyShape> ;
+                                                                       <http://www.w3.org/ns/shacl#datatype> xsd:int ;
+                                                                       <http://www.w3.org/ns/shacl#maxInclusive> 2147483647 ;
+                                                                       <http://www.w3.org/ns/shacl#minInclusive> -2147483648 ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
+                                                                       <http://www.w3.org/ns/shacl#path> <http://www.colegiosapp.org/ontology#numPeople> ;
+                                                                       <http://www.w3.org/ns/shacl#pattern> "[\\-+]?[0-9]+" .
+
+
+###  https://astrea.linkeddata.es/shapes#679afed74e1fbdd7a239d41f20951311
+<https://astrea.linkeddata.es/shapes#679afed74e1fbdd7a239d41f20951311> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#NodeShape> ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> ;
+                                                                       <http://www.w3.org/ns/shacl#property> <https://astrea.linkeddata.es/shapes#ebb87dcc2fd562a1d24734983793f47c> ,
+                                                                                                             <https://astrea.linkeddata.es/shapes#48dcf8ee9648c397a38e7f94dec4cf15> ,
+                                                                                                             <https://astrea.linkeddata.es/shapes#59f58bd413cd851b29a7ab98a0f376af> ,
+                                                                                                             <https://astrea.linkeddata.es/shapes#6f709903f59dbfd4e040481bf1d31ea0> ,
+                                                                                                             <https://astrea.linkeddata.es/shapes#96c04f2732c59eaca5098bb23254cc66> ;
+                                                                       <http://www.w3.org/ns/shacl#targetClass> <http://www.colegiosapp.org/ontology#ResidentGroup> .
+
+
+###  https://astrea.linkeddata.es/shapes#86dd4553d4b4fb583698ec747ebf19f8
+<https://astrea.linkeddata.es/shapes#86dd4553d4b4fb583698ec747ebf19f8> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#PropertyShape> ;
+                                                                       <http://www.w3.org/ns/shacl#datatype> xsd:string ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
+                                                                       <http://www.w3.org/ns/shacl#path> <http://www.colegiosapp.org/ontology#nameSchool> ;
+                                                                       <http://www.w3.org/ns/shacl#pattern> ".*" .
+
+
+###  https://astrea.linkeddata.es/shapes#91a2f38810f40ecf5cd0a4919f9fbc5f
+<https://astrea.linkeddata.es/shapes#91a2f38810f40ecf5cd0a4919f9fbc5f> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#PropertyShape> ;
+                                                                       <http://www.w3.org/ns/shacl#datatype> xsd:string ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
+                                                                       <http://www.w3.org/ns/shacl#path> <http://www.colegiosapp.org/ontology#hasNameMunicipality> ;
+                                                                       <http://www.w3.org/ns/shacl#pattern> ".*" .
+
+
+###  https://astrea.linkeddata.es/shapes#9342cd77a858c4987385448a69b0a4e1
+<https://astrea.linkeddata.es/shapes#9342cd77a858c4987385448a69b0a4e1> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#PropertyShape> ;
+                                                                       <http://www.w3.org/ns/shacl#datatype> xsd:anyURI ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
+                                                                       <http://www.w3.org/ns/shacl#path> <http://www.colegiosapp.org/ontology#urlSchool> ;
+                                                                       <http://www.w3.org/ns/shacl#pattern> "^(([^:/?#]+):)?(//([^/?#]*))?([^?#]*)(\\?([^#]*))?(#(.*))?" .
+
+
+###  https://astrea.linkeddata.es/shapes#96c04f2732c59eaca5098bb23254cc66
+<https://astrea.linkeddata.es/shapes#96c04f2732c59eaca5098bb23254cc66> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.w3.org/ns/shacl#PropertyShape> ;
+                                                                       <http://www.w3.org/ns/shacl#datatype> xsd:int ;
+                                                                       <http://www.w3.org/ns/shacl#maxInclusive> 2147483647 ;
+                                                                       <http://www.w3.org/ns/shacl#minInclusive> -2147483648 ;
+                                                                       <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> ;
+                                                                       <http://www.w3.org/ns/shacl#path> <http://www.colegiosapp.org/ontology#maxAge> ;
+                                                                       <http://www.w3.org/ns/shacl#pattern> "[\\-+]?[0-9]+" .
+
+
+###  Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

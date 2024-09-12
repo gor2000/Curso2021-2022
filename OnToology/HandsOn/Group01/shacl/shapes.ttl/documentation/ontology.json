@@ -1,0 +1,515 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://astrea.linkeddata.es/report",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/astrea#ShapeReport" ],
+  "https://w3id.org/def/astrea#contains" : [ {
+    "@id" : "https://astrea.linkeddata.es/shapes#a8712a0101de7bec494bc106f3b728e1"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#b1623cb826fec26ccbdcdb687fa301dc"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#bfd0c78cc9f33b1cc3375444a36beecc"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#deb2a706789f5a57b4d0582a39ff9c07"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#e9082658ccfefc9b3445001e41f9e50f"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#ebb87dcc2fd562a1d24734983793f47c"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#0ee53c3d6b10005eaffe2b8d7c01fdf5"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#0551122c143344fd9241baabb10ca0b7"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#1c27a2047114599e14efb0fa06c50ac3"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#2e99504692093e6011d8b09bffa7eb94"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#2ecc4269279b7d6068ffd000631d135e"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#22c0546814a91a42bdd373df348c39f5"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#25963b0f537e15d54d3f104bcf87c6b3"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#26c017b6f08162bb8165b409f29c044a"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#48dcf8ee9648c397a38e7f94dec4cf15"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#5b0030060ae8fe006504233577dafcaf"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#5b8d8535d3f32c08d3ce29df72563aa0"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#59f58bd413cd851b29a7ab98a0f376af"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#6f709903f59dbfd4e040481bf1d31ea0"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#679afed74e1fbdd7a239d41f20951311"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#86dd4553d4b4fb583698ec747ebf19f8"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#91a2f38810f40ecf5cd0a4919f9fbc5f"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#9342cd77a858c4987385448a69b0a4e1"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#96c04f2732c59eaca5098bb23254cc66"
+  } ],
+  "https://w3id.org/def/astrea#generatedShapesFrom" : [ {
+    "@id" : "https://astrea.linkeddata.es/report/0620946147"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#NodeShape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#PropertyShape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#class",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#datatype",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#maxInclusive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#minInclusive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#nodeKind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#path",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#pattern",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#property",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/shacl#targetClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/report/0620946147",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://w3id.org/def/astrea#ReportEntry" ],
+  "https://w3id.org/def/astrea#message" : [ {
+    "@value" : "Shapes generated with no errors"
+  } ],
+  "https://w3id.org/def/astrea#statusCode" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "200"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#0551122c143344fd9241baabb10ca0b7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#PropertyShape" ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.colegiosapp.org/ontology#idMunicipality"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#0ee53c3d6b10005eaffe2b8d7c01fdf5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#PropertyShape" ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.colegiosapp.org/ontology#ownership"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#1c27a2047114599e14efb0fa06c50ac3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#NodeShape" ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#property" : [ {
+    "@id" : "https://astrea.linkeddata.es/shapes#b1623cb826fec26ccbdcdb687fa301dc"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#bfd0c78cc9f33b1cc3375444a36beecc"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#0ee53c3d6b10005eaffe2b8d7c01fdf5"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#2ecc4269279b7d6068ffd000631d135e"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#25963b0f537e15d54d3f104bcf87c6b3"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#26c017b6f08162bb8165b409f29c044a"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#5b0030060ae8fe006504233577dafcaf"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#86dd4553d4b4fb583698ec747ebf19f8"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#9342cd77a858c4987385448a69b0a4e1"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "http://dbpedia.org/ontology#School"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#22c0546814a91a42bdd373df348c39f5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#NodeShape" ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#property" : [ {
+    "@id" : "https://astrea.linkeddata.es/shapes#a8712a0101de7bec494bc106f3b728e1"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#e9082658ccfefc9b3445001e41f9e50f"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#2e99504692093e6011d8b09bffa7eb94"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#5b8d8535d3f32c08d3ce29df72563aa0"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "http://www.colegiosapp.org/ontology#Address"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#25963b0f537e15d54d3f104bcf87c6b3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#PropertyShape" ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.colegiosapp.org/ontology#idSchool"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#26c017b6f08162bb8165b409f29c044a",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#PropertyShape" ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.colegiosapp.org/ontology#hasTypeSchool"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#2e99504692093e6011d8b09bffa7eb94",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#PropertyShape" ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.colegiosapp.org/ontology#hasNumber"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#2ecc4269279b7d6068ffd000631d135e",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#PropertyShape" ],
+  "http://www.w3.org/ns/shacl#class" : [ {
+    "@id" : "http://www.colegiosapp.org/ontology#Address"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.colegiosapp.org/ontology#hasAddress"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#48dcf8ee9648c397a38e7f94dec4cf15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#PropertyShape" ],
+  "http://www.w3.org/ns/shacl#class" : [ {
+    "@id" : "http://dbpedia.org/ontology#Municipality"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.colegiosapp.org/ontology#liveIn"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#59f58bd413cd851b29a7ab98a0f376af",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#PropertyShape" ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/ns/shacl#maxInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2147483647"
+  } ],
+  "http://www.w3.org/ns/shacl#minInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "-2147483648"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.colegiosapp.org/ontology#minAge"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : "[\\-+]?[0-9]+"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#5b0030060ae8fe006504233577dafcaf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#PropertyShape" ],
+  "http://www.w3.org/ns/shacl#class" : [ {
+    "@id" : "http://dbpedia.org/ontology#Municipality"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#BlankNodeOrIRI"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.colegiosapp.org/ontology#ownMunicipality"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#5b8d8535d3f32c08d3ce29df72563aa0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#PropertyShape" ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.colegiosapp.org/ontology#hasNameAddress"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#679afed74e1fbdd7a239d41f20951311",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#NodeShape" ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#property" : [ {
+    "@id" : "https://astrea.linkeddata.es/shapes#ebb87dcc2fd562a1d24734983793f47c"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#48dcf8ee9648c397a38e7f94dec4cf15"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#59f58bd413cd851b29a7ab98a0f376af"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#6f709903f59dbfd4e040481bf1d31ea0"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#96c04f2732c59eaca5098bb23254cc66"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "http://www.colegiosapp.org/ontology#ResidentGroup"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#6f709903f59dbfd4e040481bf1d31ea0",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#PropertyShape" ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/ns/shacl#maxInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2147483647"
+  } ],
+  "http://www.w3.org/ns/shacl#minInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "-2147483648"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.colegiosapp.org/ontology#numPeople"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : "[\\-+]?[0-9]+"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#86dd4553d4b4fb583698ec747ebf19f8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#PropertyShape" ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.colegiosapp.org/ontology#nameSchool"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#91a2f38810f40ecf5cd0a4919f9fbc5f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#PropertyShape" ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.colegiosapp.org/ontology#hasNameMunicipality"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#9342cd77a858c4987385448a69b0a4e1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#PropertyShape" ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.colegiosapp.org/ontology#urlSchool"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : "^(([^:/?#]+):)?(//([^/?#]*))?([^?#]*)(\\?([^#]*))?(#(.*))?"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#96c04f2732c59eaca5098bb23254cc66",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#PropertyShape" ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/ns/shacl#maxInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2147483647"
+  } ],
+  "http://www.w3.org/ns/shacl#minInclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "-2147483648"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.colegiosapp.org/ontology#maxAge"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : "[\\-+]?[0-9]+"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#a8712a0101de7bec494bc106f3b728e1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#PropertyShape" ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.colegiosapp.org/ontology#hasTypeAddress"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#b1623cb826fec26ccbdcdb687fa301dc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#PropertyShape" ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.colegiosapp.org/ontology#xCoordinate"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#bfd0c78cc9f33b1cc3375444a36beecc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#PropertyShape" ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.colegiosapp.org/ontology#yCoordinate"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#deb2a706789f5a57b4d0582a39ff9c07",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#NodeShape" ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#IRI"
+  } ],
+  "http://www.w3.org/ns/shacl#property" : [ {
+    "@id" : "https://astrea.linkeddata.es/shapes#0551122c143344fd9241baabb10ca0b7"
+  }, {
+    "@id" : "https://astrea.linkeddata.es/shapes#91a2f38810f40ecf5cd0a4919f9fbc5f"
+  } ],
+  "http://www.w3.org/ns/shacl#targetClass" : [ {
+    "@id" : "http://dbpedia.org/ontology#Municipality"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#e9082658ccfefc9b3445001e41f9e50f",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#PropertyShape" ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.colegiosapp.org/ontology#hasPostalCode"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://astrea.linkeddata.es/shapes#ebb87dcc2fd562a1d24734983793f47c",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/shacl#PropertyShape" ],
+  "http://www.w3.org/ns/shacl#datatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/ns/shacl#nodeKind" : [ {
+    "@id" : "http://www.w3.org/ns/shacl#Literal"
+  } ],
+  "http://www.w3.org/ns/shacl#path" : [ {
+    "@id" : "http://www.colegiosapp.org/ontology#hasGender"
+  } ],
+  "http://www.w3.org/ns/shacl#pattern" : [ {
+    "@value" : ".*"
+  } ]
+}, {
+  "@id" : "https://w3id.org/def/astrea#ReportEntry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/def/astrea#ShapeReport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/def/astrea#contains",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/astrea#generatedShapesFrom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/astrea#message",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/def/astrea#statusCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]
